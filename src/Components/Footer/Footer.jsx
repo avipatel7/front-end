@@ -46,8 +46,9 @@ const Footer = () => {
             <div className="logo">
               <img src={logo} alt="" />
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                consectetur adipiscing elit.
+                Travel World is a travel agency that provides the best travel
+                experience to the customers. We provide the best services to our
+                customers.
               </p>
 
               <div className="social__links d-flex align-items-center gap-4">
@@ -126,7 +127,7 @@ const Footer = () => {
                   <h6 className="mb-0">Phone:</h6>
                 </div>
                 <p className="mb-0">
-                  <Link to="tel:9876543210">+91 9876543210</Link>
+                  <Link to="tel:9876543210">+44 7776543210</Link>
                 </p>
               </ListGroupItem>
 
@@ -137,7 +138,7 @@ const Footer = () => {
                   </span>
                   <h6 className="mb-0">Address:</h6>
                 </div>
-                <p className="mb-0">India</p>
+                <p className="mb-0">United Kingdom</p>
               </ListGroupItem>
             </ListGroup>
           </Col>
