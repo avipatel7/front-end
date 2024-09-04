@@ -26,7 +26,7 @@ const FeaturedBlogsList = ({ lg,sm,md }) => {
         ))}
         <div className="viall__btn">
           <NavLink to={"/blogs"}>
-            <Button className="btn primary__btn">View All Blogs</Button>
+            <Button className="btn primary__btn"><a href="/blogs">View All Blogs</a></Button>
           </NavLink>
         </div>
     </>
